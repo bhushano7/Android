@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <Button android:text="7" android:layout_x="12dp" android:id="@+id/btn7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_y="59dp"></Button>
+    <Button android:text="9" android:id="@+id/btn9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="104dp" android:layout_y="62dp"></Button>
+    <Button android:text="6" android:id="@+id/btn6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="13dp" android:layout_y="113dp"></Button>
+    <Button android:text="5" android:id="@+id/btn5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="55dp" android:layout_y="108dp"></Button>
+    <Button android:text="4" android:id="@+id/btn4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="101dp" android:layout_y="116dp"></Button>
+    <Button android:text="1" android:id="@+id/btn1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="16dp" android:layout_y="164dp"></Button>
+    <Button android:text="3" android:id="@+id/btn3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="96dp" android:layout_y="167dp"></Button>
+    <Button android:text="*" android:id="@+id/btnMulti" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="145dp" android:layout_y="116dp"></Button>
+    <Button android:text="-" android:id="@+id/btnMin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="145dp" android:layout_y="166dp"></Button>
+    <Button android:text="2" android:id="@+id/btn2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="55dp" android:layout_y="158dp"></Button>
+    <Button android:text="+" android:id="@+id/btnPlus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="96dp" android:layout_y="222dp"></Button>
+    <EditText android:id="@+id/txt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_x="1dp" android:layout_y="4dp">
+        <requestFocus></requestFocus>
+    </EditText>
+    <Button android:text="=" android:id="@+id/btnEqual" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="145dp" android:layout_y="216dp"></Button>
+    <Button android:text="." android:id="@+id/btnDot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="18dp" android:layout_y="218dp"></Button>
+    <Button android:text="0" android:id="@+id/btn0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="54dp" android:layout_y="222dp"></Button>
+    <Button android:text="8" android:id="@+id/btn8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="56dp" android:layout_y="60dp"></Button>
+    <Button android:text="/" android:id="@+id/btnDivi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="149dp" android:layout_y="61dp"></Button>
+    
+</AbsoluteLayout>

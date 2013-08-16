@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ResourceStringActivity!</string>
+    <string name="app_name">ResourceString</string>
+    <string name="txtName">Bhushankumar</string>
+    <string name="txtNo">11014211013</string>
+</resources>
